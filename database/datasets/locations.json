@@ -25,21 +25,21 @@
         "address": "1002 Jackson Avenue East, Oxford MS 38655",
         "phone": "(662) 234-5757",
         "website": "https://www.raftersoxford.com/",
-        "pictureURL": "https://s3.amazonaws.com/visit-oxford/wp-content/uploads/2015/05/16174431/xuL-Ov92_400x400.jpg"
+        "pictureURL": "http://s3.amazonaws.com/visit-oxford/wp-content/uploads/2015/05/16174431/xuL-Ov92_400x400.jpg"
     },
     {
         "name": "Round Table Oxford",
         "address": "132 Court House Square Oxford, MS 38655",
         "phone": "(662) 513-0588",
         "website": "http://www.roundtableoxford.com",
-        "pictureURL": "https://eatingoxford.files.wordpress.com/2010/11/round-table-logo.jpg"
+        "pictureURL": "https://i.postimg.cc/wBJNrHJM/Screenshot_74.png"
     },
     {
         "name": "Funky's Pizza and Daiquiri Bar",
         "address": "1012 E Jackson Ave, Oxford, MS",
         "phone": "(662) 259-2881",
         "website": "http://www.funkys.com/",
-        "pictureURL": "https://s3.amazonaws.com/visit-oxford/wp-content/uploads/2018/05/16181348/funkys-oxford-ms.jpg"
+        "pictureURL": "http://s3.amazonaws.com/visit-oxford/wp-content/uploads/2018/05/16181348/funkys-oxford-ms.jpg"
     },
     {
         "name": "The Library Sports Bar",
@@ -60,13 +60,13 @@
         "address": "211 S Lamar Blvd, Oxford, MS",
         "phone": "(662) 236-0050",
         "website": "https://www.proudlarrys.com/",
-        "pictureURL": "https://pbs.twimg.com/profile_images/377568008/Larrys_Sunlogo_400x400.jpg"
+        "pictureURL": "https://i.postimg.cc/QCFyLHq1/Screenshot_73.png"
     },
     {
         "name": "The Summit Lodge Bar",
         "address": "1112 Van Buren, Oxford, MS",
         "phone": "662-236-6872",
         "website": "http://visitoxfordms.com/place/burgundy-room/",
-        "pictureURL": "https://hottytoddy.com/wp-content/uploads/2016/08/The-Summit-Lodge-Bar-logo.jpg"
+        "pictureURL": "https://i.postimg.cc/K8stdRCZ/The-_Summit-_Lodge-_Bar-logo.jpg"
     }
 ]

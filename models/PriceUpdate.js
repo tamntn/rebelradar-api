@@ -9,6 +9,6 @@ const PriceUpdateSchema = new Schema({
     }
 })
 
-const PriceUpdate = mongoose.model('priceUpdate', PriceUpdateSchema);
+const PriceUpdate = mongoose.model('priceUpdates', PriceUpdateSchema);
 
 module.exports = PriceUpdate;

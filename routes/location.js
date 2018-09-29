@@ -5,6 +5,7 @@ const Location = require('../models/Location');
 // GET - get all locations data
 router.get('/api/locations', function (req, res) {
     Location.find({})
+        .populate('priceUpdates')
         .then((locations) => {
             res.send({
                 message: "GET request successful",

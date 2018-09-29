@@ -10,6 +10,7 @@ var databaseConfig = require('./config/db');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var locations = require('./routes/location');
+var priceUpdates = require("./routes/priceUpdates");
 
 var app = express();
 
@@ -48,6 +49,7 @@ mongoose.connect(databaseConfig.devURI);
 app.use('/', index);
 app.use('/users', users);
 app.use('/', locations);
+app.use('/', priceUpdates);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
