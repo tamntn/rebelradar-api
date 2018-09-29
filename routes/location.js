@@ -19,4 +19,20 @@ router.get('/api/locations', function (req, res) {
         })
 })
 
+// POST - push new ratings
+router.post('/api/ratings/:locationId', function (req, res) {
+    Location.findByIdAndUpdate({ _id: req.params.locationId }, { $push: { ratings: req.body.rating } })
+        .then(() => {
+            res.send({
+                message: "New rating has been updated",
+                data: req.body.rating
+            })
+        })
+        .catch((err) => {
+            res.send({
+                error: err.message
+            });
+        })
+})
+
 module.exports = router;
