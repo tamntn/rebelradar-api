@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 var allowCrossDomain = function (req, res, next) {
-  var allowedOrigins = ['http://localhost:3000', 'http://localhost:3001', 'https://fierce-dawn-76388.herokuapp.com/', 'https://rebelradar.herokuapp.com'];
+  var allowedOrigins = ['http://localhost:3000', 'https://rebelradar.herokuapp.com', 'http://rebelradar.herokuapp.com'];
   var origin = req.headers.origin;
   if (allowedOrigins.indexOf(origin) > -1) {
     res.setHeader('Access-Control-Allow-Origin', origin);
