@@ -22,6 +22,14 @@ const LocationSchema = new Schema({
         type: String,
         required: true
     },
+    priceUpdates: [{
+        type: Schema.Types.ObjectId,
+        ref: 'priceUpdates'
+    }],
+    ratings: [{
+        type: Number,
+        required: true
+    }]
 })
 
 const Location = mongoose.model('location', LocationSchema);
