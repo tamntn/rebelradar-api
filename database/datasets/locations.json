@@ -1,0 +1,72 @@
+[
+    {
+        "name": "The Annex Oxford",
+        "address": "1002 Jackson Ave E, Oxford, MS",
+        "phone": "(662) 380-5029",
+        "website": "https://www.raftersoxford.com/",
+        "pictureURL": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/26239072_1937693076260640_8476564818172065828_n.jpg?_nc_cat=107&oh=3b5a6022b7a521ab870b1c6703a267ff&oe=5C1A380D"
+    },
+    {
+        "name": "The Levee Oxford",
+        "address": "1008 Jackson Ave E, Oxford, MS 38655",
+        "phone": "(662) 513-3223",
+        "website": "http://www.theoxfordlevee.com",
+        "pictureURL": "https://pbs.twimg.com/profile_images/740001096349843456/sCEDvnaM_400x400.jpg"
+    },
+    {
+        "name": "Rooster's Blues House",
+        "address": "114 Courthouse Sq, Oxford, MS",
+        "phone": "(662) 236-7970",
+        "website": "https://www.facebook.com/pg/roostersblueshouse/about/?ref=page_internal",
+        "pictureURL": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/15871466_1644719459162000_8163189671313138506_n.jpg?_nc_cat=104&oh=60b48f0ea8088615771e71dbae376e40&oe=5C5B5408"
+    },
+    {
+        "name": "Rafters Bar and Grill",
+        "address": "1002 Jackson Avenue East, Oxford MS 38655",
+        "phone": "(662) 234-5757",
+        "website": "https://www.raftersoxford.com/",
+        "pictureURL": "http://s3.amazonaws.com/visit-oxford/wp-content/uploads/2015/05/16174431/xuL-Ov92_400x400.jpg"
+    },
+    {
+        "name": "Round Table Oxford",
+        "address": "132 Court House Square Oxford, MS 38655",
+        "phone": "(662) 513-0588",
+        "website": "http://www.roundtableoxford.com",
+        "pictureURL": "https://eatingoxford.files.wordpress.com/2010/11/round-table-logo.jpg"
+    },
+    {
+        "name": "Funky's Pizza and Daiquiri Bar",
+        "address": "1012 E Jackson Ave, Oxford, MS",
+        "phone": "(662) 259-2881",
+        "website": "http://www.funkys.com/",
+        "pictureURL": "http://s3.amazonaws.com/visit-oxford/wp-content/uploads/2018/05/16181348/funkys-oxford-ms.jpg"
+    },
+    {
+        "name": "The Library Sports Bar",
+        "address": "120 S 11th St, Oxford, Mississippi",
+        "phone": "(662) 234-1411",
+        "website": "https://www.facebook.com/pg/thelibraryoxford/about/?ref=page_internal",
+        "pictureURL": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/539484_326673990725825_1364466153_n.jpg?_nc_cat=106&oh=c6c4c5460ce90c738564fe3830bb02e6&oe=5C19F298"
+    },
+    {
+        "name": "The Oxford Cellar",
+        "address": "135 S 10th St, Oxford, Mississippi",
+        "phone": "(662) 236-2724",
+        "website": "https://www.facebook.com/TheOxfordCellar/",
+        "pictureURL": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10494759_1432073683726679_8086006442632265854_n.jpg?_nc_cat=100&oh=6a7a4313ce4d07e65479246f912d7a2c&oe=5C227D1F"
+    },
+    {
+        "name": "Proud Larry's",
+        "address": "211 S Lamar Blvd, Oxford, MS",
+        "phone": "(662) 236-0050",
+        "website": "https://www.proudlarrys.com/",
+        "pictureURL": "https://pbs.twimg.com/profile_images/377568008/Larrys_Sunlogo_400x400.jpg"
+    },
+    {
+        "name": "The Summit Lodge Bar",
+        "address": "1112 Van Buren, Oxford, MS",
+        "phone": "662-236-6872",
+        "website": "http://visitoxfordms.com/place/burgundy-room/",
+        "pictureURL": "https://hottytoddy.com/wp-content/uploads/2016/08/The-Summit-Lodge-Bar-logo.jpg"
+    }
+]

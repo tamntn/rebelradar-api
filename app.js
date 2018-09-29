@@ -4,9 +4,12 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var databaseConfig = require('./config/db');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var locations = require('./routes/location');
 
 var app = express();
 
@@ -22,18 +25,40 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+var allowCrossDomain = function (req, res, next) {
+  var allowedOrigins = ['http://localhost:3000', 'http://localhost:3001', 'https://fierce-dawn-76388.herokuapp.com/'];
+  var origin = req.headers.origin;
+  if (allowedOrigins.indexOf(origin) > -1) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  }
+  // res.header('Access-Control-Allow-Origin', "http://localhost:3001, https://app.aquagrow.life");
+  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+}
+
+app.use(allowCrossDomain);
+
+// public folder setup
+// the root is at the 'public' folder itself
+// app.use('/public', express.static(path.join(__dirname, 'public')));
+
+mongoose.Promise = global.Promise;
+mongoose.connect(databaseConfig.devURI);
+
 app.use('/', index);
 app.use('/users', users);
+app.use('/', locations);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
