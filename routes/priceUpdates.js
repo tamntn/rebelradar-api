@@ -16,6 +16,8 @@ router.post('/api/price/:locationId', function (req, res) {
         .then(priceUpdate => {
             Location.findByIdAndUpdate({ _id: req.params.locationId }, { $push: { priceUpdates: priceUpdate } })
                 .then(() => {
+                    // Emit Event To The Server
+                    req.app.io.emit("newPriceUpdate");
                     res.send({
                         message: "New price update has been added",
                         data: priceUpdate

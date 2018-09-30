@@ -25,7 +25,7 @@
         "address": "1002 Jackson Avenue East, Oxford MS 38655",
         "phone": "(662) 234-5757",
         "website": "https://www.raftersoxford.com/",
-        "pictureURL": "http://s3.amazonaws.com/visit-oxford/wp-content/uploads/2015/05/16174431/xuL-Ov92_400x400.jpg"
+        "pictureURL": "https://s3.amazonaws.com/visit-oxford/wp-content/uploads/2015/05/16174431/xuL-Ov92_400x400.jpg"
     },
     {
         "name": "Round Table Oxford",
@@ -39,7 +39,7 @@
         "address": "1012 E Jackson Ave, Oxford, MS",
         "phone": "(662) 259-2881",
         "website": "http://www.funkys.com/",
-        "pictureURL": "http://s3.amazonaws.com/visit-oxford/wp-content/uploads/2018/05/16181348/funkys-oxford-ms.jpg"
+        "pictureURL": "https://s3.amazonaws.com/visit-oxford/wp-content/uploads/2018/05/16181348/funkys-oxford-ms.jpg"
     },
     {
         "name": "The Library Sports Bar",

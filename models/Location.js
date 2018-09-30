@@ -29,7 +29,11 @@ const LocationSchema = new Schema({
     ratings: [{
         type: Number,
         required: true
-    }]
+    }],
+    confirmations: {
+        type: Number,
+        default: 0
+    }
 })
 
 const Location = mongoose.model('location', LocationSchema);
